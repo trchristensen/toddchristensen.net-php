@@ -1,0 +1,17 @@
+{
+  "name": "anon/toddchristensen.net",
+  "autoload": {
+    "psr-4": {
+      "Anon\\ToddchristensenNet\\": "src/",
+      "App\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Todd Christensen"
+    }
+  ],
+  "require": {
+    "jenssegers/blade": "^2.0"
+  }
+}
