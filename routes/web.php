@@ -5,19 +5,19 @@ use App\Router;
 Router::get('/', function () {
     return Router::isHtmxAjaxRequest() ?
         Router::view('partials.home-content')
-        : Router::view('home');
+        : Router::view('home', ['title' => 'Home | Todd Christensen']);
 });
 
 Router::get('/about', function () {
     return Router::isHtmxAjaxRequest() ?
         Router::view('partials.about-content')
-        : Router::view('about');
+        : Router::view('about', ['title' => 'About | Todd Christensen']);
 });
 
 Router::get('/contact', function () {
     return Router::isHtmxAjaxRequest() ?
         Router::view('partials.contact-content')
-        : Router::view('contact');
+        : Router::view('contact', ['title' => 'Contact | Todd Christensen']);
 });
 
 // Define more routes...
