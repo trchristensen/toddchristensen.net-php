@@ -20,4 +20,10 @@ Router::get('/contact', function () {
         : Router::view('contact', ['title' => 'Contact | Todd Christensen']);
 });
 
+Router::get('/projects', function () {
+    return Router::isHtmxAjaxRequest() ?
+        Router::view('partials.projects-content')
+        : Router::view('projects', ['title' => 'Projects | Todd Christensen']);
+});
+
 // Define more routes...
