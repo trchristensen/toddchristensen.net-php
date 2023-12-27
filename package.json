@@ -9,6 +9,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@tailwindcss/typography": "github:tailwindcss/typography",
     "tailwindcss": "^3.4.0"
   }
 }
