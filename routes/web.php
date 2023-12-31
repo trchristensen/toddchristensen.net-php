@@ -1,5 +1,7 @@
 <?php
 
+use App\DB;
+use App\Guestbook;
 use App\Router;
 
 Router::get('/', function () {
@@ -26,4 +28,35 @@ Router::get('/projects', function () {
         : Router::view('projects', ['title' => 'Projects | Todd Christensen']);
 });
 
-// Define more routes...
+Router::get('/guestbook', function () {
+    $dbConnection = new DB();
+    $guestbook = new Guestbook($dbConnection);
+    $entries = $guestbook->getAllEntries();
+
+    // Now, return the entries in your desired format (e.g., JSON, HTML)
+    return Router::isHtmxAjaxRequest() ?
+        Router::view('partials.guestbook-content')
+        : Router::view('guestbook', ['entries' => $entries]);
+
+});
+
+Router::post('/guestbook', function () {
+    $dbConnection = new DB();
+    $guestbook = new Guestbook($dbConnection);
+
+    // Retrieve and sanitize input data
+    // $name = $_POST['name'] ?? '';
+    $name = "Todd";
+    $message = $_POST['message'] ?? '';
+
+    // Add entry to the guestbook
+    $guestbook->addEntry($name, $message);
+
+    // For HTMX request, return only the updated part
+    if (Router::isHtmxAjaxRequest()) {
+        $entries = $guestbook->getAllEntries();
+        return Router::view('partials.guestbook-entries', ['entries' => $entries]);
+    } else {
+        // Handle a regular request (e.g., redirect)
+    }
+});

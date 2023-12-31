@@ -22,7 +22,7 @@
 </style>
 
 
-<body class="grid grid-rows-[1fr_auto] min-h-screen bg-gray-200">
+<body class="grid grid-rows-[1fr_auto] min-h-screen bg-white">
     <div class="flex flex-col flex-grow transition-margin duration-300 ease-in-out">
         <header class="flex container max-w-xl px-4 mx-auto">
             <nav hx-boost="true" class="flex w-full flex-row gap-4 py-6 h-full items-center">
@@ -33,8 +33,10 @@
                     </div>
                 </a>
                 <a href="/projects" hx-get="/projects" hx-push-url="/projects" hx-target="main">some projects</a>
-                <a href="/about" hx-get="/about" hx-push-url="/about" hx-target="main">more about me</a>
-                <a href="/contact" hx-get="/contact" hx-push-url="/contact" hx-target="main">hit me up</a>
+                <a href="/about" hx-get="/about" hx-push-url="/about" hx-target="main">more
+                    about me</a>
+                <a href="/contact" hx-get="/contact" hx-push-url="/contact" hx-target="main">hit
+                    me up</a>
             </nav>
         </header>
         <main class="flex-grow"><?php echo $__env->yieldContent('content'); ?></main>
