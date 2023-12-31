@@ -23,25 +23,26 @@
 
 
 <body class="grid grid-rows-[1fr_auto] min-h-screen bg-white">
-    <div class="flex flex-col flex-grow transition-margin duration-300 ease-in-out">
-        <header class="flex container max-w-xl px-4 mx-auto">
-            <nav hx-boost="true" class="flex w-full flex-row gap-4 py-6 h-full items-center">
+    <div class="flex flex-col flex-grow duration-300 ease-in-out transition-margin">
+        <header class="container flex max-w-xl px-4 mx-auto">
+            <nav hx-boost="true" class="flex flex-row items-center w-full h-full gap-4 py-6">
                 <a hx-boost="true" href="/" hx-get="/" hx-push-url="/" hx-target="main">
                     <div
-                        class="bg-black text-white rounded-full w-8 h-8 flex items-center justify-center leading-loose">
+                        class="flex items-center justify-center w-8 h-8 leading-loose text-white bg-black rounded-full">
                         tc
                     </div>
                 </a>
                 <a href="/projects" hx-get="/projects" hx-push-url="/projects" hx-target="main">some projects</a>
                 <a href="/about" hx-get="/about" hx-push-url="/about" hx-target="main">more
                     about me</a>
-                <a href="/contact" hx-get="/contact" hx-push-url="/contact" hx-target="main">hit
-                    me up</a>
+                <a href="/guestbook" hx-get="/guestbook" hx-push-url="/guestbook" hx-target="main">guestbook</a>
+                {{-- <a href="/contact" hx-get="/contact" hx-push-url="/contact" hx-target="main">hit
+                    me up</a> --}}
             </nav>
         </header>
         <main class="flex-grow">@yield('content')</main>
-        <footer class="bg-black text-white py-4">
-            <div class="container max-w-xl mx-auto px-4">
+        <footer class="py-4 text-white bg-black">
+            <div class="container max-w-xl px-4 mx-auto">
                 {{-- <p>Footer Content</p> --}}
             </div>
         </footer>
