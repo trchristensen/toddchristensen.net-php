@@ -11,20 +11,28 @@
         <h2>latest projects.</h2>
         <ul>
             <li>
-                <a href="">
-                    <h4 class="mb-0">Christy Vault</h4>
+                <a href="https://www.toddchristensen.net">
+                    <h4 class="mb-0">toddchristensen.net</h4>
                 </a>
-                <p class="mt-0">Company website (static). I now work here as Operations Manager.</p>
+                <p class="mt-0">This site. My portfolio site. There's been many variations over the years. I've decided
+                    to keep it pretty vanilla this time-- plain php, tailwind, &amp; htmx.</p>
             </li>
             <li>
-                <a href="">
+                <a href="https://adopt.com.ph">
                     <h4 class="mb-0">adoptapet.com.ph</h4>
                 </a>
                 <p class="mt-0">pet adoption platform for Philippines.</p>
             </li>
+            <li>
+                <a href="https://christyvault.com">
+                    <h4 class="mb-0">Christy Vault</h4>
+                </a>
+                <p class="mt-0">Company website (static). I now work here as Operations Manager.</p>
+            </li>
         </ul>
-        <div>
-            <a>view more</p>
+        <div class="flex flex-row items-center gap-4">
+            {{-- <a>view more</a> --}}
+
         </div>
     </div>
 </section>

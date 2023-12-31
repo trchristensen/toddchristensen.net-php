@@ -35,7 +35,7 @@ Router::get('/guestbook', function () {
 
     // Now, return the entries in your desired format (e.g., JSON, HTML)
     return Router::isHtmxAjaxRequest() ?
-        Router::view('partials.guestbook-content')
+        Router::view('partials.guestbook-content', ['entries' => $entries])
         : Router::view('guestbook', ['entries' => $entries]);
 
 });

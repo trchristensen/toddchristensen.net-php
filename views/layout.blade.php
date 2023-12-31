@@ -32,7 +32,7 @@
                         tc
                     </div>
                 </a>
-                <a href="/projects" hx-get="/projects" hx-push-url="/projects" hx-target="main">some projects</a>
+                {{-- <a href="/projects" hx-get="/projects" hx-push-url="/projects" hx-target="main">some projects</a> --}}
                 <a href="/about" hx-get="/about" hx-push-url="/about" hx-target="main">more
                     about me</a>
                 <a href="/guestbook" hx-get="/guestbook" hx-push-url="/guestbook" hx-target="main">guestbook</a>
