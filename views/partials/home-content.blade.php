@@ -3,6 +3,7 @@
         <h2>I'm Todd Christensen.</h2>
         <p>I'm a former full-time web developer who likes to build things. I still haven't finished building my own
             personal site, though.</p>
+        <p><span class="font-bold">Current Location:</span> Bay Area, CA</p>
     </div>
 
 </section>
