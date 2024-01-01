@@ -4,6 +4,23 @@ use App\DB;
 use App\Guestbook;
 use App\Router;
 
+Router::post('/send-magic-link', function () {
+    $email = $_POST['email'] ?? '';
+
+    $dbConnection = new DB();
+    $guestbook = new Guestbook($dbConnection);
+
+    $response = $guestbook->sendMagicLink($email);
+    // Return a response (e.g., confirmation message)
+    return $response;
+});
+
+Router::get('/authenticate', function () {
+    // Get token from query parameter
+    // Verify token with Stytch API
+    // Handle authenticated user
+});
+
 Router::get('/', function () {
     return Router::isHtmxAjaxRequest() ?
         Router::view('partials.home-content')
