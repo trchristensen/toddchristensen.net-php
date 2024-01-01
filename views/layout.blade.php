@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ $title ?? 'toddchristensen.net' }}</title>
     <!-- Tailwind CSS -->
-    {{-- <link href="./output.css" rel="stylesheet"> --}}
+    <link href="./global.css" rel="stylesheet">
 
     <!-- Alpine.js -->
     {{-- <script defer src="https://cdn.jsdelivr.net/npm/@alpinejs/intersect@3.x.x/dist/cdn.min.js"></script> --}}
@@ -28,70 +28,6 @@
         border-width: 0;
         border-style: solid;
         border-color: #e5e7eb;
-    }
-
-    body {
-        padding: 0;
-        margin: 0;
-        min-height: 100vh;
-    }
-
-    main {
-        flex-grow: 1;
-    }
-
-    .logo {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        width: 35px;
-        height: 35px;
-        color: white;
-        background-color: black;
-        border-radius: 100%;
-    }
-
-    .full-grid {
-        display: grid;
-        grid-template-rows: 1fr auto;
-        min-height: 100vh;
-    }
-
-    .layout-wrapper {
-        display: flex;
-        flex-direction: column;
-        flex-grow: 1;
-    }
-
-    .content-wrapper {
-        display: flex;
-        flex-direction: column;
-        transition: margin 0.3s ease-in-out;
-    }
-
-    .container {
-        width: 100%;
-        max-width: 36rem;
-        padding: 0 16px;
-        margin: 0 auto;
-    }
-
-    .header-nav {
-        display: flex;
-        align-items: center;
-        padding: 24px 0;
-    }
-
-    .nav-link {
-        text-decoration: none;
-        color: inherit;
-        padding: 8px;
-    }
-
-    .footer {
-        padding: 16px;
-        background-color: black;
-        color: white;
     }
 </style>
 
