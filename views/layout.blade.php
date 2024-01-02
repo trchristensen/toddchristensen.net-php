@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ $title ?? 'toddchristensen.net' }}</title>
     <meta name="description" content="Just an aspiring solopreneuer, making things and having fun along the way.">
-    <meta property="og:title" content="Marc Lou | Indie Page">
+    <meta property="og:title" content="Todd Christensen">
     <meta property="og:type" content="website">
     <meta property="og:description"
         content="Just an aspiring solopreneuer, making things and having fun along the way.">
@@ -79,7 +79,8 @@
                     </div>
                     <section id="intro">
                         <div class="container">
-                            <p>I'm a former full-time web developer who likes to build things.</p>
+                            <p>I'm a former full-time web developer and aspiring solopreneuer, making things and having
+                                fun along the way.</p>
                         </div>
 
                     </section>
