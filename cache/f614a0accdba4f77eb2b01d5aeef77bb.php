@@ -1,26 +1,32 @@
 <section id="projects">
-    <div class="container prose">
-        <h2>latest projects.</h2>
-        <ul class="latest-list">
-            <li>
+    <div class="container flex flex-col w-full gap-4">
+        <div class="prose">
+            <h2>latest projects.</h2>
+        </div>
+        <ul class="grid w-full grid-cols-1 gap-4 lg:grid-cols-2">
+            <li class="shadow-xl card bg-base-100">
                 <a href="https://www.toddchristensen.net">
-                    <h3>toddchristensen.net</h3>
+                    <div class="card-body">
+                        <h2 class="card-title">toddchristensen.net</h2>
+                        <p>This site. My portfolio site. There's been many variations over the years. I've
+                            decided
+                            to keep it pretty vanilla this time-- plain php, tailwind, alpine, &amp; htmx.</p>
+                        <div class="justify-end card-actions">
+                            
+                        </div>
+                    </div>
                 </a>
-                <p class="mt-0">This site. My portfolio site. There's been many variations over the years. I've decided
-                    to keep it pretty vanilla this time-- plain php, tailwind, alpine, &amp; htmx.</p>
             </li>
-            <li>
-                <a href="https://adopt.com.ph">
-                    <h3>adoptapet.com.ph</h3>
+            <li class="shadow-xl card bg-base-100">
+                <a href="https://www.adopt.com.ph">
+                    <div class="card-body">
+                        <h2 class="card-title">Adopt PH</h2>
+                        <p>pet adoption platform for Philippines. Not live atm.</p>
+                        <div class="justify-end card-actions">
+                            
+                        </div>
+                    </div>
                 </a>
-                <p class="mt-0">pet adoption platform for Philippines.</p>
-            </li>
-            <li>
-                <a href="https://christyvault.com">
-                    <h3>Christy Vault</h3>
-                </a>
-                <p class="mt-0">Company website (static). I now work here as Operations Manager. Current live site was
-                    made with Next.js. New site will be made with Astro js, htmx and alpine</p>
             </li>
         </ul>
         <div class="flex flex-row items-center gap-4">
