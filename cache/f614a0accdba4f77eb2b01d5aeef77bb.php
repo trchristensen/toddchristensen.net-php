@@ -1,14 +1,5 @@
-<section id="intro">
-    <div class="container">
-        <h2>I'm Todd Christensen.</h2>
-        <p>I'm a former full-time web developer who likes to build things. I still haven't finished building my own
-            personal site, though.</p>
-        <p><span class="font-bold">Current Location:</span> Bay Area, CA</p>
-    </div>
-
-</section>
 <section id="projects">
-    <div class="container">
+    <div class="container prose">
         <h2>latest projects.</h2>
         <ul class="latest-list">
             <li>
