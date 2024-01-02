@@ -5,6 +5,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ $title ?? 'toddchristensen.net' }}</title>
+    <meta name="description" content="Just an aspiring solopreneuer, making things and having fun along the way.">
+    <meta property="og:title" content="Marc Lou | Indie Page">
+    <meta property="og:type" content="website">
+    <meta property="og:description"
+        content="Just an aspiring solopreneuer, making things and having fun along the way.">
+
     <!-- Tailwind CSS -->
     <link href="./output.css" rel="stylesheet">
 
@@ -38,8 +44,8 @@
                 class="shrink-0 space-y-4 lg:space-y-8 lg:w-[400px] xl:w-[550px] p-6 lg:p-16 lg:pr-0 xl:pr-16">
                 <header class="flex flex-col gap-4">
                     <div class="flex items-start justify-start gap-4 lg:gap-8 lg:flex-col"><span
-                            class="relative shrink-0"><img alt="marclou profile picture" width="176" height="176"
-                                decoding="async" data-nimg="1"
+                            class="relative shrink-0"><img alt="Todd Christensenprofile pic" width="176"
+                                height="176" decoding="async" data-nimg="1"
                                 class="object-cover w-20 h-20 rounded-full lg:w-44 lg:h-44" style="color:transparent"
                                 src="avatar.jpeg" />
                             <div class="absolute inset-0 rounded-full shadow-[0_0_0px_1px_rgba(0,0,0,0.06)]"></div>
