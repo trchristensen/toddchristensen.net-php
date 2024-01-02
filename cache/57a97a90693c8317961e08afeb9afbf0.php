@@ -5,6 +5,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title><?php echo e($title ?? 'toddchristensen.net'); ?></title>
+    <meta name="description" content="Just an aspiring solopreneuer, making things and having fun along the way.">
+    <meta property="og:title" content="Marc Lou | Indie Page">
+    <meta property="og:type" content="website">
+    <meta property="og:description"
+        content="Just an aspiring solopreneuer, making things and having fun along the way.">
+
     <!-- Tailwind CSS -->
     <link href="./output.css" rel="stylesheet">
 
@@ -36,8 +42,8 @@
                 class="shrink-0 space-y-4 lg:space-y-8 lg:w-[400px] xl:w-[550px] p-6 lg:p-16 lg:pr-0 xl:pr-16">
                 <header class="flex flex-col gap-4">
                     <div class="flex items-start justify-start gap-4 lg:gap-8 lg:flex-col"><span
-                            class="relative shrink-0"><img alt="marclou profile picture" width="176" height="176"
-                                decoding="async" data-nimg="1"
+                            class="relative shrink-0"><img alt="Todd Christensenprofile pic" width="176"
+                                height="176" decoding="async" data-nimg="1"
                                 class="object-cover w-20 h-20 rounded-full lg:w-44 lg:h-44" style="color:transparent"
                                 src="avatar.jpeg" />
                             <div class="absolute inset-0 rounded-full shadow-[0_0_0px_1px_rgba(0,0,0,0.06)]"></div>
@@ -52,7 +58,7 @@
                                         <path fill-rule="evenodd"
                                             d="M9.69 18.933l.003.001C9.89 19.02 10 19 10 19s.11.02.308-.066l.002-.001.006-.003.018-.008a5.741 5.741 0 00.281-.14c.186-.096.446-.24.757-.433.62-.384 1.445-.966 2.274-1.765C15.302 14.988 17 12.493 17 9A7 7 0 103 9c0 3.492 1.698 5.988 3.355 7.584a13.731 13.731 0 002.273 1.765 11.842 11.842 0 00.976.544l.062.029.018.008.006.003zM10 11.25a2.25 2.25 0 100-4.5 2.25 2.25 0 000 4.5z"
                                             clip-rule="evenodd"></path>
-                                    </svg><span class="text-base-content/80">Bay Area, CA</span></h2>
+                                    </svg><span class="text-base-content/80">Bay Area, California, USA</span></h2>
                                 <div>
                                     <p class="flex items-center gap-1"><svg xmlns="http://www.w3.org/2000/svg"
                                             viewBox="0 0 24 24" fill="currentColor"
