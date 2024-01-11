@@ -1,8 +1,8 @@
 <section id="projects" class="pb-5">
     <div class="container flex flex-col w-full gap-10">
-        <div class="prose">
+        {{-- <div class="prose">
             <h2>latest projects.</h2>
-        </div>
+        </div> --}}
         <ul class="grid w-full grid-cols-1 gap-4 lg:grid-cols-2">
             <li class="shadow-xl card bg-base-100">
                 <a href="https://www.toddchristensen.net">
@@ -48,9 +48,9 @@
 </section>
 <section id="blog" class="py-5">
     <div class="container flex flex-col w-full gap-10">
-        <div class="prose">
+        {{-- <div class="prose">
             <h2>latest posts.</h2>
-        </div>
+        </div> --}}
         <ul class="grid w-full grid-cols-1 gap-4 lg:grid-cols-2">
         </ul>
     </div>
