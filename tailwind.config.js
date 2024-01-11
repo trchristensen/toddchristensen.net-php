@@ -5,7 +5,11 @@ module.exports = {
     './views/**/*.blade.php', // Watches all your Blade PHP files in the views directory and subdirectories
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        green: '#E2EF70',
+      },
+    },
   },
   daisyui: {
     themes: ['light', 'dark', 'sunset'],

@@ -45,6 +45,14 @@ Router::get('/projects', function () {
         : Router::view('projects', ['title' => 'Projects | Todd Christensen']);
 });
 
+Router::get('/prius', function () {
+
+    return Router::isHtmxAjaxRequest() ?
+        Router::view('partials.prius-content')
+        : Router::view('prius');
+
+});
+
 Router::get('/guestbook', function () {
     $dbConnection = new DB();
     $guestbook = new Guestbook($dbConnection);

@@ -69,7 +69,7 @@
                             <div class="flex flex-col gap-1 lg:flex-row lg:gap-4">
                                 <h2 class="flex items-center gap-1"><svg xmlns="http://www.w3.org/2000/svg"
                                         viewBox="0 0 20 20" fill="currentColor"
-                                        class="w-4 h-4 mr-1 lg:w-5 lg:h-5 text-base-content/80">
+                                        class="w-4 h-4 mr-1 lg:w-5 lg:h-5 text-secondary">
                                         <path fill-rule="evenodd"
                                             d="M9.69 18.933l.003.001C9.89 19.02 10 19 10 19s.11.02.308-.066l.002-.001.006-.003.018-.008a5.741 5.741 0 00.281-.14c.186-.096.446-.24.757-.433.62-.384 1.445-.966 2.274-1.765C15.302 14.988 17 12.493 17 9A7 7 0 103 9c0 3.492 1.698 5.988 3.355 7.584a13.731 13.731 0 002.273 1.765 11.842 11.842 0 00.976.544l.062.029.018.008.006.003zM10 11.25a2.25 2.25 0 100-4.5 2.25 2.25 0 000 4.5z"
                                             clip-rule="evenodd"></path>
@@ -77,7 +77,7 @@
                                 <div>
                                     <p class="flex items-center gap-1"><svg xmlns="http://www.w3.org/2000/svg"
                                             viewBox="0 0 24 24" fill="currentColor"
-                                            class="inline w-4 h-4 mr-1 lg:w-5 lg:h-5 text-base-content/80">
+                                            class="inline w-4 h-4 mr-1 lg:w-5 lg:h-5 text-green">
                                             <path d="M12 7.5a2.25 2.25 0 100 4.5 2.25 2.25 0 000-4.5z"></path>
                                             <path fill-rule="evenodd"
                                                 d="M1.5 4.875C1.5 3.839 2.34 3 3.375 3h17.25c1.035 0 1.875.84 1.875 1.875v9.75c0 1.036-.84 1.875-1.875 1.875H3.375A1.875 1.875 0 011.5 14.625v-9.75zM8.25 9.75a3.75 3.75 0 117.5 0 3.75 3.75 0 01-7.5 0zM18.75 9a.75.75 0 00-.75.75v.008c0 .414.336.75.75.75h.008a.75.75 0 00.75-.75V9.75a.75.75 0 00-.75-.75h-.008zM4.5 9.75A.75.75 0 015.25 9h.008a.75.75 0 01.75.75v.008a.75.75 0 01-.75.75H5.25a.75.75 0 01-.75-.75V9.75z"
@@ -91,26 +91,14 @@
                         </div>
                     </div>
                     <section id="intro">
-                        <div class="container">
-                            <p>I'm a former full-time web developer and aspiring solopreneuer, making things and having
-                                fun along the way.</p>
-                        </div>
+
+                        <p>I'm a former full-time web developer and aspiring solopreneuer, making things and having
+                            fun along the way.</p>
+
 
                     </section>
-                    {{-- <nav hx-boost="true" class="header-nav">
-                    <a class="nav-link" hx-boost="true" href="/" hx-get="/" hx-push-url="/" hx-target="main">
-                        <div class="logo">
-                            tc
-                        </div>
-                    </a>
-                    <a href="/projects" hx-get="/projects" hx-push-url="/projects" hx-target="main">some projects</a>
-                    <a class="nav-link" href="/about" hx-get="/about" hx-push-url="/about" hx-target="main">more
-                        about me</a>
-                    <a class="nav-link" href="/guestbook" hx-get="/guestbook" hx-push-url="/guestbook"
-                        hx-target="main">guestbook</a>
-                    <a href="/contact" hx-get="/contact" hx-push-url="/contact" hx-target="main">hit
-                        me up</a>
-                </nav> --}}
+                    <hr class="border-base-100" />
+                    @include('nav')
                 </header>
             </div>
             <div class="lg:h-screen lg:overflow-scroll no-scrollbar w-full max-w-[1100px]">
