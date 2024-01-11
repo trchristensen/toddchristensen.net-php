@@ -100,7 +100,7 @@
                 </nav> --}}
                 </header>
             </div>
-            <div class="w-full lg:h-screen lg:overflow-scroll noscrollbar">
+            <div class="lg:h-screen lg:overflow-scroll no-scrollbar w-full max-w-[1100px]">
                 <div class="px-6 my-0 divider lg:hidden "></div>
                 <main class="flex-grow p-6 lg:p-16">@yield('content')
                 </main>
