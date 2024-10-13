@@ -1,7 +1,7 @@
 <?php
 
 require __DIR__ . '/../vendor/autoload.php';
-require __DIR__ . '/../src/Router.php';
+require __DIR__ . '/../app/Router.php';
 
 use App\Router;
 

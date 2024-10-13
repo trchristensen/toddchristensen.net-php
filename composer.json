@@ -2,8 +2,7 @@
   "name": "anon/toddchristensen.net",
   "autoload": {
     "psr-4": {
-      "Anon\\ToddchristensenNet\\": "src/",
-      "App\\": "src/"
+      "App\\": "app/"
     }
   },
   "authors": [
