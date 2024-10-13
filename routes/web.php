@@ -7,6 +7,7 @@ use App\Router;
 Router::get('/', [HomeController::class, 'index']);
 Router::get('/prius', [HomeController::class, 'prius']);
 
+
 // Router::get('/about', [HomeController::class, 'about']);
 // Router::get('/contact', [HomeController::class, 'contact']);
 
